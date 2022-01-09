@@ -1,0 +1,210 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 09-Jun-2021, 8:07:05 am
+    Author     : HP
+*/
+html {
+    scroll-behavior: smooth;
+  }
+
+.body{
+    font-family: 'Ubuntu', sans-serif !important;
+    
+}
+
+/* start Header css*/
+.nav-link{
+    color: black;   
+}
+
+.nav-link:hover{
+    color: #fff;
+    background-color: rgb(134, 131, 131);
+    border-radius: 5px;
+    border-color: black;
+    font-size: 18px;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px !important;
+    font-weight: bold;
+    color: rgb(236, 29, 29) !important;
+    
+    }
+
+.navbar-text{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px !important;
+    font-weight: bold;
+    color: rgb(211, 46, 46) !important;
+}
+    
+.navbar-toggler-icon{
+    color: red !important;
+    background-color: royalblue;
+}
+ /*End header css*/   
+
+.content{    
+    padding-block: 10%;
+    text-align: center;
+    font-size: 25px;
+    /* background-image:linear-gradient(180deg,#f575f5, #43a0b1 ); */
+    background-image:linear-gradient(180deg, rgb(255, 255, 255) , #f575f5, #43a0b1 );
+}
+.subjets-card{
+    background-image:linear-gradient(180deg,#fff,#f575f5, #43a0b1 );
+}
+
+#contactUs{
+    background-image:linear-gradient(180deg, #43a0b1, #fff,#f575f5  );
+    padding: 30px;
+    
+}
+
+
+.bottom-banner{
+    color: rgb(0, 0, 0);
+    padding: 30px;
+    background-color: #43a0b1;
+    
+}
+
+.card-img-top{
+    width: 10px;
+}
+
+.stripe{
+    background-image:linear-gradient(180deg,#f575f5, #2a9eb3 );
+    padding: 3rem;
+    height: 13rem;
+    margin-top: 4rem;
+    transform: rotate(10deg);
+    z-index: 5;
+}
+
+
+ /*start chapter style*/ 
+.tm-nav-link {
+    color: #666;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center !important;
+    font-size: 1.2rem;
+    text-decoration: none !important;
+  }
+  
+  .tm-nav-item.current,
+  .tm-nav-link:hover {
+    color: white;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    background-image: linear-gradient(145deg, rgb(10, 10, 7) , rgb(110, 110, 110));
+  }
+
+
+.card-custom {
+    border-radius: 10%;
+    width: 250px;
+    min-height: 100px;
+    background-color: rgb(92, 226, 193) !important;
+    /* width: 250px; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-decoration: none;
+}
+.cardTotalQuestion{
+    background-color: rgb(161, 226, 218);
+    width: max-content;
+    padding-inline: 8px;
+    border: 1px solid rgb(59, 141, 120);    
+    font-size: 15px;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    border-radius: 10px;
+    box-shadow: 4px 0 2px 0 rgba(0, 0, 0, 0.2);
+    
+}
+
+.chapter_text{
+    justify-content: center;
+    align-items: center;
+    color: yellow;
+}
+.circle_chapter_number{
+    border-radius: 50%;
+  
+  /* padding: 10px; */
+  padding-inline: 10px;
+  background: rgb(92, 226, 193);
+  border: 1px solid rgb(59, 141, 120);
+  color: #666;
+  text-align: center;
+  font-size: 1.2rem ;
+}
+/*end chapter style*/
+
+.tableScrollbar{
+    height: 500px;
+    overflow-x: scroll;
+    overflow-y: scroll;
+}
+
+.tableScrollbar th {
+    background: white;
+    position:sticky;
+    top:0;
+}
+
+
+
+
+
+/* ********************** */
+
+
+/* #footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:60px;   Height of the footer 
+     background:#6cf;
+ } */
+
+#footer{
+    clear: both;
+    position: relative;
+    bottom: 0%;
+    margin-top: 0%;
+
+}
+
+@media screen and (min-width: 0px) and (max-width: 700px) {
+    .my-content,
+    .txt-banner,
+    .stripe{
+        display: none;
+    }
+
+    .vid-content{
+        top: 12%;
+        left: 60%;
+    }
+
+    .custom-nav .custom-nav-item a{
+        padding: 10px 20px;
+        background-color: #225470;
+    }
+
+    .custom-nav-item:hover{
+        background-color: none;
+        border: none;
+        border-radius: none;
+    }
+}
